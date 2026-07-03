@@ -165,20 +165,20 @@ body.dark-mode .site-header.scrolled .nav {
 }
 
 .site-header .brand-mark {
-  flex: 0 0 54px;
-  width: 54px;
-  height: 54px;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
   padding: 0;
-  border: 0;
+  border: none;
   border-radius: 0;
-  background: transparent;
+  background: none;
   box-shadow: none;
   overflow: visible;
 }
 
 .site-header .brand-mark img {
-  width: auto;
-  height: 64px;
+  width: 64px;
+  height: auto;
   max-width: none;
   object-fit: contain;
   transform: none;
@@ -1326,14 +1326,6 @@ button:disabled {
 
   .site-header .brand > span:not(.brand-mark) {
     display: none;
-  }
-
-  .site-header .brand-mark {
-    flex-basis: 44px;
-    width: 44px;
-    height: 44px;
-    padding: 0;
-    border-radius: 0;
   }
 
   .nav-links {
